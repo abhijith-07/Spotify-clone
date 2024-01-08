@@ -1,0 +1,35 @@
+/* 
+Base theme: #6aff00
+Dark-bg: #060e00
+*/
+body {
+    background-color: #060e00;
+    padding: 0 2rem;
+}
+
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.login img {
+    width: 100%;
+    margin: 0 1em;
+}
+
+.login a.btn-login {
+    text-decoration: none;
+    color: #060e00;
+    padding: 1em;
+    border-radius: 1.5em;
+    background-color: #6aff00;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    transition: .2s ease-in-out;
+}
+
+.login a.btn-login:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
